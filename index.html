@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <section class="HeaderDoJogo">
+            <h1>Jogo de Adivinhação</h1>
+            
+            <article class="ComoJogar">
+                <p> Tente chutar o numero que estou pensando entre 1 e 100!<br>
+                    Coloque o numero na caixa inferior e clique em Chutar.<br>
+                    Você tem 10 tentativas, darei dicas sobre o valor caso erre.<br>
+                    Boa sorte!
+                </p>
+            </article>
+        </section>
+
+        <section class="Topo">
+            <article>
+                <p id="MensagensDoJogo"></p>
+            </article>
+    
+            <article>
+                <p id="Tentativas">Tentativas restantes: 10</p>
+            </article>
+        </section>
+        
+        <section class="Inputs">
+            <article>
+                <input type="number" id="chute">
+            </article>
+            
+            <article>
+                <button type="button" onclick="Chutar()" id="BotaoChute">Chutar</button>
+            </article>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

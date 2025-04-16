@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: cursive;
+    font-size: 25px;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-image: 
+    url("Start.png"),
+    linear-gradient(to bottom left, #310c74, #250642);
+    background-size: 100px 100px, cover
+}
+
+main {
+    color: #2cb149;
+    text-align: center;
+
+    box-shadow: 0 0 2px rgb(36, 25, 2);
+    border: 5px solid #5c2381;
+    background: #320f6bee;
+
+    padding: 30px;
+    margin: 30px auto;
+    max-height: 80%;
+    max-width: 60%;
+    height: auto;
+    width: auto;
+}
+
+h1 {
+    font-size: 35px;
+    padding: 10px;
+}
+
+article {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.HeaderDoJogo article {
+    margin: 5px;
+    border: 4px solid #5c2381;
+    margin-bottom: 25px;
+}
+
+.Topo {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.Topo > article {
+    margin: 5px;
+    border: 4px solid #5c2381;
+}
+
+.Inputs {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    padding-bottom: 20px;
+}
+
+input::-webkit-inner-spin-button, input::-webkit-outer-spin-button {
+    appearance: none;
+}
+
+input, button {
+    color: #2cb149;
+    background-color:#260c57;
+    border: 3px solid #5c2381;
+    text-align: center;
+    padding: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:#3a157e;
+
+}
