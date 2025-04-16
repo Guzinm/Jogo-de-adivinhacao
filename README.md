@@ -1,5 +1,7 @@
 # Jogo de adivinhação
 
+![screenshot](screenshot.png)
+
 ## 🚀 Como usar
 
 1. Baixe ou clone o repositório:
